@@ -19,7 +19,7 @@ namespace WorldBankTest
 
             // Assert
             decimal balance = Stewie.Accounts[0].Balance;
-            Assert.AreEqual(balance, 700m);
+            Assert.AreEqual(700m, balance);
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace WorldBankTest
 
             // Assert
             decimal balance = Glenn.Accounts[0].Balance;
-            Assert.AreEqual(balance, 9800m);
+            Assert.AreEqual(9800m, balance);
         }
 
         [TestMethod]
@@ -55,8 +55,8 @@ namespace WorldBankTest
             // Assert
             decimal balance1010 = Joe.Accounts[0].Balance;
             decimal balance5050 = Joe.Accounts[1].Balance;
-            Assert.AreEqual(balance1010, 1497.6m);
-            Assert.AreEqual(balance5050, 17300m);
+            Assert.AreEqual(1497.6m, balance1010);
+            Assert.AreEqual(17300m, balance5050);
         }
 
         [TestMethod]
@@ -77,8 +77,8 @@ namespace WorldBankTest
             // Assert
             decimal balance0123 = Peter.Accounts[0].Balance;
             decimal balance0456 = Lois.Accounts[0].Balance;
-            Assert.AreEqual(balance0123, 33.75m);
-            Assert.AreEqual(balance0456, 112554.25m);
+            Assert.AreEqual(33.75m, balance0123);
+            Assert.AreEqual(112554.25m, balance0456);
         }
     }
 }

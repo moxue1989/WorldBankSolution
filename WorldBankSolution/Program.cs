@@ -14,9 +14,8 @@ namespace WorldBankSolution
 
         static void Main(string[] args)
         {
+            // Console output tests
             SetUp();
-
-            //from p in Accounts where p.AccountNumber
             Console.WriteLine(Customers[0].Accounts[0].Balance);
             Console.WriteLine(Accounts[0].Balance);
             Accounts[0].Withdraw(50.5m);
